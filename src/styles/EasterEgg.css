@@ -1,0 +1,15 @@
+.easter-egg {
+    display: none;
+    position: absolute;
+    z-index: 10;
+}
+
+.easter-egg.revealed {
+    display: block;
+    animation: fadeIn 2s;
+}
+
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}

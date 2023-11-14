@@ -1,0 +1,21 @@
+.social-share-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.social-share-button {
+    margin: 0 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+.social-share-button:hover {
+    transform: scale(1.1);
+}
+
+.social-share-icon {
+    width: 30px;
+    height: 30px;
+}
