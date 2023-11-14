@@ -1,0 +1,44 @@
+.feedback-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+.feedback-message {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.feedback-animation {
+    width: 100px;
+    height: 100px;
+}
+
+.toast-notification {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #444;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 1000;
+    display: none;
+}
+
+.toast-show {
+    display: block;
+    animation: slide-in 0.5s forwards;
+}
+
+@keyframes slide-in {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
